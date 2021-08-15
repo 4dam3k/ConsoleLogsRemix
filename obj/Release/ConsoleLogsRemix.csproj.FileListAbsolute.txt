@@ -11,3 +11,11 @@ C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\Console
 C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\Assembly-CSharp.dll
 C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\UnityEngine.CoreModule.dll
 C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csproj.CopyComplete
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csproj.AssemblyReference.cache
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.AssemblyInfoInputs.cache
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.AssemblyInfo.cs
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csproj.CoreCompileInputs.cache
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.dll
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.xml
+C:\Users\adamo\Documents\GitHub\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.pdb

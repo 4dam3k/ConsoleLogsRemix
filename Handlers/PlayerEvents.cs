@@ -23,9 +23,16 @@ namespace ConsoleLogsRemix.EventHandlers
             Log.Info($"{ev.Killer.Nickname} ({ev.Killer.Role}) zabi³ {ev.Target.Nickname} ({ev.Target.Role}) zadaj¹c {damageRound} obra¿eñ.");
 
             string message = $"{ev.Killer.Nickname} ({ev.Killer.Role}) zabi³ {ev.Target.Nickname} ({ev.Target.Role}) zadaj¹c {damageRound} obra¿eñ.";
+            string killerid = $"Zabójca posiada ID: {ev.Killer.UserId}";
+            string targetid = $"Ofiara posiada ID: {ev.Target.UserId}";
+
             foreach (string steamID in Plugin.Instance.Config.steamids)
             {
-                Player.Get(steamID)?.RemoteAdminMessage(message, true);
+                var admin = Player.Get(steamID);
+                admin?.RemoteAdminMessage(message, true);
+                admin?.RemoteAdminMessage(killerid, true);
+                admin?.RemoteAdminMessage(targetid, true);
+
             }
 
 

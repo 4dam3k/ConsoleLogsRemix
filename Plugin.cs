@@ -59,6 +59,8 @@ namespace ConsoleLogsRemix
         public override void OnDisabled()
         {
             PlayerHandlers.Died -= PlayerEvents.OnDied;
+            PlayerHandlers.Dying -= PlayerEvents.OnDying;
+
 
             ServerHandlers.RoundStarted -= ServerEvents.OnRoundStarted;
             ServerHandlers.RespawningTeam -= ServerEvents.OnRespawningTeam;
