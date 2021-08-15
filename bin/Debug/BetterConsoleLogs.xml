@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BetterConsoleLogs</name>
+    </assembly>
+    <members>
+        <member name="T:BetterConsoleLogs.Config">
+            <inheritdoc cref="T:Exiled.API.Interfaces.IConfig"/>
+        </member>
+        <member name="P:BetterConsoleLogs.Config.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:BetterConsoleLogs.Config.CommandLogs">
+            <summary>
+            Gets or sets a value indicating whether remote admin commands should be logged.
+            </summary>
+        </member>
+        <member name="T:BetterConsoleLogs.EventHandlers.PlayerEvents">
+            <summary>
+            Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Player"/>.
+            </summary>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.PlayerEvents.OnDestroying(Exiled.Events.EventArgs.DestroyingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDied(Exiled.Events.EventArgs.DiedEventArgs)"/>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.PlayerEvents.OnDied(Exiled.Events.EventArgs.DiedEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDied(Exiled.Events.EventArgs.DiedEventArgs)"/>
+        </member>
+        <member name="T:BetterConsoleLogs.EventHandlers.ServerEvents">
+            <summary>
+            Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Server"/>.
+            </summary>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.ServerEvents.OnRoundStarted">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRoundStarted"/>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.ServerEvents.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)"/>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.ServerEvents.OnSendingRACommand(Exiled.Events.EventArgs.SendingRemoteAdminCommandEventArgs)">
+            <inheritdoc cref="!:Exiled.Events.Handlers.Server.OnSendingRACommand(SendingRemoteAdminCommandEventArgs)"/>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.ServerEvents.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)"/>
+        </member>
+        <member name="M:BetterConsoleLogs.EventHandlers.ServerEvents.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)"/>
+        </member>
+        <member name="T:BetterConsoleLogs.Plugin">
+            <summary>
+            The main plugin class.
+            </summary>
+        </member>
+        <member name="P:BetterConsoleLogs.Plugin.Instance">
+            <summary>
+            Gets an instance of the <see cref="T:BetterConsoleLogs.Plugin"/> class.
+            </summary>
+        </member>
+        <member name="P:BetterConsoleLogs.Plugin.Prefix">
+            <inheritdoc />
+        </member>
+        <member name="P:BetterConsoleLogs.Plugin.PlayerEvents">
+            <summary>
+            Gets an instance of the <see cref="T:BetterConsoleLogs.EventHandlers.PlayerEvents"/> class.
+            </summary>
+        </member>
+        <member name="P:BetterConsoleLogs.Plugin.ServerEvents">
+            <summary>
+            Gets an instance of the <see cref="T:BetterConsoleLogs.EventHandlers.ServerEvents"/> class.
+            </summary>
+        </member>
+        <member name="M:BetterConsoleLogs.Plugin.OnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:BetterConsoleLogs.Plugin.OnDisabled">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

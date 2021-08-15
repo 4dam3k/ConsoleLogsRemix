@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NQYE3kEDBfaikhH7hL9CxC8PY9fbbkC797rnmHX8kly5ASNmhw5ZloBCs9HF3lsFbdhLcLnYldEV6rKoC9Uq5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adamo\\.nuget\\packages\\exiled\\2.10.0-beta\\exiled.2.10.0-beta.nupkg.sha512",
+    "C:\\Users\\adamo\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

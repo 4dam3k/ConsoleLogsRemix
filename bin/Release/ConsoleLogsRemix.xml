@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleLogsRemix</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleLogsRemix.Config">
+            <inheritdoc cref="T:Exiled.API.Interfaces.IConfig"/>
+        </member>
+        <member name="P:ConsoleLogsRemix.Config.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:ConsoleLogsRemix.Config.CommandLogs">
+            <summary>
+            Gets or sets a value indicating whether remote admin commands should be logged.
+            </summary>
+        </member>
+        <member name="P:ConsoleLogsRemix.Config.steamids">
+            <summary>
+            Show list of allowed steamID64
+            </summary>
+        </member>
+        <member name="T:ConsoleLogsRemix.EventHandlers.PlayerEvents">
+            <summary>
+            Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Player"/>.
+            </summary>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.PlayerEvents.OnDestroying(Exiled.Events.EventArgs.DestroyingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDied(Exiled.Events.EventArgs.DiedEventArgs)"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.PlayerEvents.OnDying(Exiled.Events.EventArgs.DyingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDying(Exiled.Events.EventArgs.DyingEventArgs)"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.PlayerEvents.OnDied(Exiled.Events.EventArgs.DiedEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDied(Exiled.Events.EventArgs.DiedEventArgs)"/>
+        </member>
+        <member name="T:ConsoleLogsRemix.EventHandlers.ServerEvents">
+            <summary>
+            Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Server"/>.
+            </summary>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnRoundStarted">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRoundStarted"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnSendingRACommand(Exiled.Events.EventArgs.SendingRemoteAdminCommandEventArgs)">
+            <inheritdoc cref="!:Exiled.Events.Handlers.Server.OnSendingRACommand(SendingRemoteAdminCommandEventArgs)"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)"/>
+        </member>
+        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)"/>
+        </member>
+        <member name="T:ConsoleLogsRemix.Plugin">
+            <summary>
+            The main plugin class.
+            </summary>
+        </member>
+        <member name="P:ConsoleLogsRemix.Plugin.Instance">
+            <summary>
+            Gets an instance of the <see cref="T:ConsoleLogsRemix.Plugin"/> class.
+            </summary>
+        </member>
+        <member name="P:ConsoleLogsRemix.Plugin.Prefix">
+            <inheritdoc />
+        </member>
+        <member name="P:ConsoleLogsRemix.Plugin.PlayerEvents">
+            <summary>
+            Gets an instance of the <see cref="T:ConsoleLogsRemix.EventHandlers.PlayerEvents"/> class.
+            </summary>
+        </member>
+        <member name="P:ConsoleLogsRemix.Plugin.ServerEvents">
+            <summary>
+            Gets an instance of the <see cref="T:ConsoleLogsRemix.EventHandlers.ServerEvents"/> class.
+            </summary>
+        </member>
+        <member name="M:ConsoleLogsRemix.Plugin.OnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:ConsoleLogsRemix.Plugin.OnDisabled">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

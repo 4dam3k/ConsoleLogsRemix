@@ -1,0 +1,12 @@
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\Better Console Logs.csprojAssemblyReference.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\Better Console Logs.AssemblyInfoInputs.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\Better Console Logs.AssemblyInfo.cs
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\Better Console Logs.csproj.CoreCompileInputs.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Debug\BetterConsoleLogs.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Debug\BetterConsoleLogs.pdb
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Debug\BetterConsoleLogs.xml
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Debug\Assembly-CSharp.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\Better Console Logs.csproj.CopyComplete
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\BetterConsoleLogs.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\BetterConsoleLogs.xml
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Debug\BetterConsoleLogs.pdb

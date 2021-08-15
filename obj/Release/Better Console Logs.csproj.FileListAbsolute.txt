@@ -1,0 +1,13 @@
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\Better Console Logs.csprojAssemblyReference.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\Better Console Logs.AssemblyInfoInputs.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\Better Console Logs.AssemblyInfo.cs
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\Better Console Logs.csproj.CoreCompileInputs.cache
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Release\Assembly-CSharp.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\Better Console Logs.csproj.CopyComplete
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Release\ConsoleLogsRemix.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Release\ConsoleLogsRemix.pdb
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Release\ConsoleLogsRemix.xml
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\ConsoleLogsRemix.dll
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\ConsoleLogsRemix.xml
+C:\Users\adamo\Desktop\Better-Console-Logs-main\obj\Release\ConsoleLogsRemix.pdb
+C:\Users\adamo\Desktop\Better-Console-Logs-main\bin\Release\UnityEngine.CoreModule.dll

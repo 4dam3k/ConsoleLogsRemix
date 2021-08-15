@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "EXILED/2.10.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Exiled.API.dll": {},
+          "lib/net472/Exiled.Bootstrap.dll": {},
+          "lib/net472/Exiled.CreditTags.dll": {},
+          "lib/net472/Exiled.CustomItems.dll": {},
+          "lib/net472/Exiled.Events.dll": {},
+          "lib/net472/Exiled.Loader.dll": {},
+          "lib/net472/Exiled.Permissions.dll": {},
+          "lib/net472/Exiled.Updater.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Exiled.API.dll": {},
+          "lib/net472/Exiled.Bootstrap.dll": {},
+          "lib/net472/Exiled.CreditTags.dll": {},
+          "lib/net472/Exiled.CustomItems.dll": {},
+          "lib/net472/Exiled.Events.dll": {},
+          "lib/net472/Exiled.Loader.dll": {},
+          "lib/net472/Exiled.Permissions.dll": {},
+          "lib/net472/Exiled.Updater.dll": {}
+        }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "EXILED/2.10.0-beta": {
+      "sha512": "yz6WzFhNCC5/y+Scc8Kc0rT0Q4Fr7VjkdjCJkPjpibG+fzE6j1d7WiZ+UR6CQCPOdpGqHUyxnp0ER9I5gtsu9A==",
+      "type": "package",
+      "path": "exiled/2.10.0-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exiled.2.10.0-beta.nupkg.sha512",
+        "exiled.nuspec",
+        "images/Exiled_Icon.jpg",
+        "lib/net472/Exiled.API.dll",
+        "lib/net472/Exiled.API.xml",
+        "lib/net472/Exiled.Bootstrap.dll",
+        "lib/net472/Exiled.Bootstrap.xml",
+        "lib/net472/Exiled.CreditTags.dll",
+        "lib/net472/Exiled.CreditTags.xml",
+        "lib/net472/Exiled.CustomItems.dll",
+        "lib/net472/Exiled.CustomItems.xml",
+        "lib/net472/Exiled.Events.dll",
+        "lib/net472/Exiled.Events.xml",
+        "lib/net472/Exiled.Loader.dll",
+        "lib/net472/Exiled.Loader.xml",
+        "lib/net472/Exiled.Permissions.dll",
+        "lib/net472/Exiled.Permissions.xml",
+        "lib/net472/Exiled.Updater.dll",
+        "lib/net472/Exiled.Updater.xml"
+      ]
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.118",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.118.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "EXILED >= 2.10.0-beta",
+      "StyleCop.Analyzers >= 1.1.118"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\adamo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.2",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
+      "projectName": "ConsoleLogsRemix",
+      "projectPath": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
+      "packagesPath": "C:\\Users\\adamo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\adamo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "EXILED": {
+            "target": "Package",
+            "version": "[2.10.0-beta, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.1.118, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

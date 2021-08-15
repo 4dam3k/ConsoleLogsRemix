@@ -1,0 +1,13 @@
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csprojAssemblyReference.cache
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.AssemblyInfoInputs.cache
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.AssemblyInfo.cs
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csproj.CoreCompileInputs.cache
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.dll
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.xml
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.pdb
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\ConsoleLogsRemix.dll
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\ConsoleLogsRemix.pdb
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\ConsoleLogsRemix.xml
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\Assembly-CSharp.dll
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\adamo\Desktop\SCP SL Programowanie\ConsoleLogsRemix\obj\Release\ConsoleLogsRemix.csproj.CopyComplete
