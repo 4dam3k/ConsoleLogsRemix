@@ -4,6 +4,7 @@ namespace ConsoleLogsRemix.EventHandlers
     using ConsoleLogsRemix.Handlers;
     using Exiled.API.Features;
     using Exiled.Events.EventArgs;
+    using ConsoleLogsRemix;
 
     /// <summary>
     /// Handles all events subscribed from <see cref="Exiled.Events.Handlers.Player"/>.
@@ -34,9 +35,27 @@ namespace ConsoleLogsRemix.EventHandlers
                 item = "Granatem";
             }
 
-            string message = $"{ev.Killer.Nickname} ({kRole}) zabi³ {ev.Target.Nickname} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
-            string messageTK = $"{ev.Killer.Nickname} zabi³ swojego teammate'a {ev.Target.Nickname} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
-            string id = $"ID zabójcy: {ev.Killer.Id} || ID ofiary: {ev.Target.Id}";
+
+            //string message = $"{kNick} ({kRole}) zabi³ {tNick} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
+            //string messageTK = $"{kNick} zabi³ swojego teammate'a {tNick} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
+            //string id = $"ID zabójcy: {ev.Killer.Id} || ID ofiary: {ev.Target.Id}";
+
+            string message = Plugin.Instance.Config.Killlogs
+                .Replace("$knick", ev.Killer.Nickname)
+                .Replace("$tnick", ev.Target.Nickname)
+                .Replace("krole", kRole)
+                .Replace("trole", tRole)
+                .Replace("$damage", damageRound.ToString())
+                .Replace("$weapon", item);
+            string messageTK = Plugin.Instance.Config.Teamkilllogs
+                .Replace("$knick", ev.Killer.Nickname)
+                .Replace("$tnick", ev.Target.Nickname)
+                .Replace("trole", tRole)
+                .Replace("$damage", damageRound.ToString())
+                .Replace("$weapon", item);
+            string id = Plugin.Instance.Config.Idlogs
+                .Replace("$kid", ev.Killer.Id.ToString())
+                .Replace("$tid", ev.Target.Nickname.ToString());
 
 
             Log.Info(message);
@@ -55,6 +74,7 @@ namespace ConsoleLogsRemix.EventHandlers
                     {
                         admin?.RemoteAdminMessage(messageTK, true);
                         ev.Killer.RankName = "TEAMKILLER";
+                        ev.Killer.RankColor = "Red";
                     }
                 }
                 admin?.RemoteAdminMessage(id, true);

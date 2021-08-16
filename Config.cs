@@ -12,19 +12,22 @@ namespace ConsoleLogsRemix
         public bool IsEnabled { get; set; } = true;
 
         /// <summary>
-        /// Gets or sets a value indicating whether remote admin commands should be logged.
-        /// </summary>
-        [Description("Czy komendy RemoteAdmin powinny byæ pokazywane?")]
-        public bool CommandLogs { get; set; } = false;
-
-        /// <summary>
         /// Show list of allowed steamID64
         /// </summary>
-        [Description("Lista steamID64 którym maj¹ siê wyœwietlaæ logi")]
+        [Description("SteamIDs of players to show logs")]
         public List<string> steamids { get; set; } = new List<string>
         {
             
             "76561198194587707@steam",
         };
+
+        /// <summary>
+        /// Translations
+        /// </summary>
+        [Description("Translations of logs in console")]
+        public string Killlogs { set; get; } = @"$knick ($krole) killed $tnick ($trole) dealing $damage using $weapon";
+        public string Teamkilllogs { set; get; } = @"$knick teamkilled $tnick (both $trole) dealing $damage using $weapon";
+        public string Idlogs { set; get; } = @"ID of killer: $kid || ID of target: $tid";
+
     }
 }

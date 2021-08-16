@@ -10,14 +10,14 @@
         <member name="P:ConsoleLogsRemix.Config.IsEnabled">
             <inheritdoc />
         </member>
-        <member name="P:ConsoleLogsRemix.Config.CommandLogs">
-            <summary>
-            Gets or sets a value indicating whether remote admin commands should be logged.
-            </summary>
-        </member>
         <member name="P:ConsoleLogsRemix.Config.steamids">
             <summary>
             Show list of allowed steamID64
+            </summary>
+        </member>
+        <member name="P:ConsoleLogsRemix.Config.Killlogs">
+            <summary>
+            Translations
             </summary>
         </member>
         <member name="T:ConsoleLogsRemix.Handlers.Dictionaries">
