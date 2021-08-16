@@ -44,14 +44,6 @@ namespace ConsoleLogsRemix
             PlayerHandlers.Died += PlayerEvents.OnDied;
             PlayerHandlers.Dying += PlayerEvents.OnDying;
 
-
-
-            ServerHandlers.RoundStarted += ServerEvents.OnRoundStarted;
-            ServerHandlers.RespawningTeam += ServerEvents.OnRespawningTeam;
-            ServerHandlers.SendingRemoteAdminCommand += ServerEvents.OnSendingRACommand;
-            ServerHandlers.ReportingCheater += ServerEvents.OnReportingCheater;
-            ServerHandlers.LocalReporting += ServerEvents.OnLocalReporting;
-
             base.OnEnabled();
         }
 
@@ -60,13 +52,6 @@ namespace ConsoleLogsRemix
         {
             PlayerHandlers.Died -= PlayerEvents.OnDied;
             PlayerHandlers.Dying -= PlayerEvents.OnDying;
-
-
-            ServerHandlers.RoundStarted -= ServerEvents.OnRoundStarted;
-            ServerHandlers.RespawningTeam -= ServerEvents.OnRespawningTeam;
-            ServerHandlers.SendingRemoteAdminCommand -= ServerEvents.OnSendingRACommand;
-            ServerHandlers.ReportingCheater -= ServerEvents.OnReportingCheater;
-            ServerHandlers.LocalReporting -= ServerEvents.OnLocalReporting;
 
             PlayerEvents = null;
             ServerEvents = null;

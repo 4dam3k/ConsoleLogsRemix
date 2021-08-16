@@ -20,6 +20,11 @@
             Show list of allowed steamID64
             </summary>
         </member>
+        <member name="T:ConsoleLogsRemix.Handlers.Dictionaries">
+            <summary>
+            Dictionary for Roles
+            </summary>
+        </member>
         <member name="T:ConsoleLogsRemix.EventHandlers.PlayerEvents">
             <summary>
             Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Player"/>.
@@ -38,21 +43,6 @@
             <summary>
             Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Server"/>.
             </summary>
-        </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnRoundStarted">
-            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRoundStarted"/>
-        </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)">
-            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRespawningTeam(Exiled.Events.EventArgs.RespawningTeamEventArgs)"/>
-        </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnSendingRACommand(Exiled.Events.EventArgs.SendingRemoteAdminCommandEventArgs)">
-            <inheritdoc cref="!:Exiled.Events.Handlers.Server.OnSendingRACommand(SendingRemoteAdminCommandEventArgs)"/>
-        </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)">
-            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnReportingCheater(Exiled.Events.EventArgs.ReportingCheaterEventArgs)"/>
-        </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.ServerEvents.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)">
-            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnLocalReporting(Exiled.Events.EventArgs.LocalReportingEventArgs)"/>
         </member>
         <member name="T:ConsoleLogsRemix.Plugin">
             <summary>
