@@ -25,11 +25,15 @@ namespace ConsoleLogsRemix.EventHandlers
 
             string tRole;
             string kRole;
-            Dictionaries.Roletypes.TryGetValue(ev.Target.Role.ToString(), out tRole);
-            Dictionaries.Roletypes.TryGetValue(ev.Killer.Role.ToString(), out kRole);
+            //Dictionaries.Roletypes.TryGetValue(ev.Target.Role.ToString(), out tRole);
+            //Dictionaries.Roletypes.TryGetValue(ev.Killer.Role.ToString(), out kRole);
+            Plugin.Instance.Config.Roletypes.TryGetValue(ev.Target.Role.ToString(), out tRole);
+            Plugin.Instance.Config.Roletypes.TryGetValue(ev.Killer.Role.ToString(), out kRole);
 
             string item;
-            Dictionaries.Itemtypes.TryGetValue(ev.Killer.CurrentItem.id, out item);
+            //Dictionaries.Itemtypes.TryGetValue(ev.Killer.CurrentItem.id, out item);
+            Plugin.Instance.Config.Itemtypes.TryGetValue(ev.Killer.CurrentItem.id, out item);
+
             if (item != " ")
             {
                 item = "Granatem";

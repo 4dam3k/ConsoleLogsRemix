@@ -29,5 +29,84 @@ namespace ConsoleLogsRemix
         public string Teamkilllogs { set; get; } = @"$knick teamkilled $tnick (both $trole) dealing $damage using $weapon";
         public string Idlogs { set; get; } = @"ID of killer: $kid || ID of target: $tid";
 
+        public Dictionary<string, string> Roletypes { get; set; } = new Dictionary<string, string>
+        {
+            {
+                 "ClassD", "Class D"
+            },
+            {
+                 "Scientist", "Scientist "
+            },
+            {
+                 "FacilityGuard", "Guard"
+            },
+            {
+                 "NtfCommander", "Commander"
+            },
+            {
+                 "NtfCadet", "Cadet"
+            },
+            {
+                 "NtfLieutenant", "Lieutenant"
+            },
+            {
+                 "NtfScientist", "Scientist NTF"
+            },
+            {
+                 "ChaosInsurgency", "Chaos Agent"
+            },
+            {
+                 "Scp049", "SCP-049"
+            },
+            {
+                 "Scp0492", "SCP-049-2"
+            },
+            {
+                 "Scp079", "SCP-079"
+            },
+            {
+                 "Scp096", "SCP-096"
+            },
+            {
+                 "Scp106", "SCP-106"
+            },
+            {
+                 "Scp173", "SCP-173"
+            },
+            {
+                 "Scp93953", "SCP-939-53"
+            },
+            {
+                 "Scp93989", "SCP-939-89"
+            },
+        };
+        public Dictionary<ItemType, string> Itemtypes { get; set; } = new Dictionary<ItemType, string>
+        {
+            {
+                ItemType.GunCOM15, "Pistol"
+            },
+            {
+                ItemType.MicroHID, "MicroHID"
+            },
+            {
+                ItemType.GunE11SR, "Rifle"
+            },
+            {
+                ItemType.GunProject90, "P90"
+            },
+            {
+                ItemType.GunMP7, "SMG"
+            },
+            {
+                ItemType.GunLogicer, "Negev"
+            },
+            {
+                ItemType.GrenadeFrag, "Frag grenade"
+            },
+            {
+                ItemType.GunUSP, "Pistol"
+            },
+
+        };
     }
 }

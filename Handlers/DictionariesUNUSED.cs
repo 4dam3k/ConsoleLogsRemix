@@ -13,7 +13,7 @@ namespace ConsoleLogsRemix.Handlers
     /// <summary>
     /// Dictionary for Roles
     /// </summary>
-    public class Dictionaries
+    public class DictionariesUNUSED
     {
         public static Dictionary<string, string> Roletypes { get; set; } = new Dictionary<string, string>
         {
