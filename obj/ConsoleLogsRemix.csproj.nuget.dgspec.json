@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj": {}
+    "C:\\Users\\adamo\\Documents\\GitHub\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj": {
+    "C:\\Users\\adamo\\Documents\\GitHub\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
+        "projectUniqueName": "C:\\Users\\adamo\\Documents\\GitHub\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
         "projectName": "ConsoleLogsRemix",
-        "projectPath": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
+        "projectPath": "C:\\Users\\adamo\\Documents\\GitHub\\ConsoleLogsRemix\\ConsoleLogsRemix.csproj",
         "packagesPath": "C:\\Users\\adamo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adamo\\Desktop\\SCP SL Programowanie\\ConsoleLogsRemix\\obj\\",
+        "outputPath": "C:\\Users\\adamo\\Documents\\GitHub\\ConsoleLogsRemix\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adamo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,7 +49,7 @@
               "version": "[1.1.118, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
