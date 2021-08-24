@@ -24,33 +24,19 @@ namespace ConsoleLogsRemix.EventHandlers
             Plugin.Instance.Config.Roletypes.TryGetValue(ev.Target.Role.ToString(), out tRole);
             Plugin.Instance.Config.Roletypes.TryGetValue(ev.Killer.Role.ToString(), out kRole);
 
-            string item;
-            //Dictionaries.Itemtypes.TryGetValue(ev.Killer.CurrentItem.id, out item);
-            Plugin.Instance.Config.Itemtypes.TryGetValue(ev.Killer.CurrentItem.id, out item);
 
-            if (item != " ")
-            {
-                item = Plugin.Instance.Config.notlisted;
-            }
-
-
-            //string message = $"{kNick} ({kRole}) zabi³ {tNick} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
-            //string messageTK = $"{kNick} zabi³ swojego teammate'a {tNick} ({tRole}) zadaj¹c mu {damageRound} obra¿eñ {item}";
-            //string id = $"ID zabójcy: {ev.Killer.Id} || ID ofiary: {ev.Target.Id}";
 
             string message = Plugin.Instance.Config.Killlogs
                 .Replace("$knick", ev.Killer.Nickname)
                 .Replace("$tnick", ev.Target.Nickname)
                 .Replace("$krole", kRole)
                 .Replace("$trole", tRole)
-                .Replace("$damage", damageRound.ToString())
-                .Replace("$weapon", item);
+                .Replace("$damage", damageRound.ToString());
             string messageTK = Plugin.Instance.Config.Teamkilllogs
                 .Replace("$knick", ev.Killer.Nickname)
                 .Replace("$tnick", ev.Target.Nickname)
                 .Replace("$trole", tRole)
-                .Replace("$damage", damageRound.ToString())
-                .Replace("$weapon", item);
+                .Replace("$damage", damageRound.ToString());
             string id = Plugin.Instance.Config.Idlogs
                 .Replace("$kid", ev.Killer.Id.ToString())
                 .Replace("$tid", ev.Target.Id.ToString());
@@ -71,8 +57,6 @@ namespace ConsoleLogsRemix.EventHandlers
                     if (ev.Killer.Side == ev.Target.Side)
                     {
                         admin?.RemoteAdminMessage(messageTK, true);
-                        ev.Killer.RankName = "TEAMKILLER";
-                        ev.Killer.RankColor = "Red";
                     }
                 }
                 admin?.RemoteAdminMessage(id, true);

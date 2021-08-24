@@ -25,8 +25,8 @@ namespace ConsoleLogsRemix
         /// Translations
         /// </summary>
         [Description("Translations of logs in console")]
-        public string Killlogs { set; get; } = @"$knick ($krole) killed $tnick ($trole) dealing $damage using $weapon";
-        public string Teamkilllogs { set; get; } = @"$knick teamkilled $tnick (both $trole) dealing $damage using $weapon";
+        public string Killlogs { set; get; } = @"$knick ($krole) killed $tnick ($trole) dealing $damage";
+        public string Teamkilllogs { set; get; } = @"$knick teamkilled $tnick (both $trole) dealing $damage";
         public string Idlogs { set; get; } = @"ID of killer: $kid || ID of target: $tid";
 
         public Dictionary<string, string> Roletypes { get; set; } = new Dictionary<string, string>
@@ -80,34 +80,5 @@ namespace ConsoleLogsRemix
                  "Scp93989", "SCP-939-89"
             },
         };
-        public Dictionary<ItemType, string> Itemtypes { get; set; } = new Dictionary<ItemType, string>
-        {
-            {
-                ItemType.GunCOM15, "Pistol"
-            },
-            {
-                ItemType.MicroHID, "MicroHID"
-            },
-            {
-                ItemType.GunE11SR, "Rifle"
-            },
-            {
-                ItemType.GunProject90, "P90"
-            },
-            {
-                ItemType.GunMP7, "SMG"
-            },
-            {
-                ItemType.GunLogicer, "Negev"
-            },
-            {
-                ItemType.GrenadeFrag, "Frag grenade"
-            },
-            {
-                ItemType.GunUSP, "Pistol"
-            },
-
-        };
-        public string notlisted = "Nade";
     }
 }
