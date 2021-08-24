@@ -11,12 +11,6 @@ namespace ConsoleLogsRemix.EventHandlers
     /// </summary>
     public class PlayerEvents
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Player.OnDied(DiedEventArgs)"/>
-        public void OnDestroying(DestroyingEventArgs ev)
-        {
-            Log.Info($"{ev.Player.Nickname} wyszed³ z serwera");
-        }
-
         /// <inheritdoc cref="Exiled.Events.Handlers.Player.OnDying(DyingEventArgs)"/>
         public void OnDying(DyingEventArgs ev)
         {
@@ -59,7 +53,7 @@ namespace ConsoleLogsRemix.EventHandlers
                 .Replace("$weapon", item);
             string id = Plugin.Instance.Config.Idlogs
                 .Replace("$kid", ev.Killer.Id.ToString())
-                .Replace("$tid", ev.Target.Nickname.ToString());
+                .Replace("$tid", ev.Target.Id.ToString());
 
 
             Log.Info(message);

@@ -30,9 +30,6 @@
             Handles all events subscribed from <see cref="T:Exiled.Events.Handlers.Player"/>.
             </summary>
         </member>
-        <member name="M:ConsoleLogsRemix.EventHandlers.PlayerEvents.OnDestroying(Exiled.Events.EventArgs.DestroyingEventArgs)">
-            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDied(Exiled.Events.EventArgs.DiedEventArgs)"/>
-        </member>
         <member name="M:ConsoleLogsRemix.EventHandlers.PlayerEvents.OnDying(Exiled.Events.EventArgs.DyingEventArgs)">
             <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnDying(Exiled.Events.EventArgs.DyingEventArgs)"/>
         </member>
