@@ -36,7 +36,7 @@ namespace ConsoleLogsRemix.EventHandlers
 
             if (item != " ")
             {
-                item = "Granatem";
+                item = Plugin.Instance.Config.notlisted;
             }
 
 
@@ -47,14 +47,14 @@ namespace ConsoleLogsRemix.EventHandlers
             string message = Plugin.Instance.Config.Killlogs
                 .Replace("$knick", ev.Killer.Nickname)
                 .Replace("$tnick", ev.Target.Nickname)
-                .Replace("krole", kRole)
-                .Replace("trole", tRole)
+                .Replace("$krole", kRole)
+                .Replace("$trole", tRole)
                 .Replace("$damage", damageRound.ToString())
                 .Replace("$weapon", item);
             string messageTK = Plugin.Instance.Config.Teamkilllogs
                 .Replace("$knick", ev.Killer.Nickname)
                 .Replace("$tnick", ev.Target.Nickname)
-                .Replace("trole", tRole)
+                .Replace("$trole", tRole)
                 .Replace("$damage", damageRound.ToString())
                 .Replace("$weapon", item);
             string id = Plugin.Instance.Config.Idlogs
@@ -68,13 +68,13 @@ namespace ConsoleLogsRemix.EventHandlers
             foreach (string steamID in Plugin.Instance.Config.steamids)
             {
                 Player admin = Player.Get(steamID);
-                if (tRole != kRole) 
+                if (ev.Killer.Side != ev.Target.Side) 
                 {
                     admin?.RemoteAdminMessage(message, true);
                 }
                 else
                 {
-                    if (tRole == kRole)
+                    if (ev.Killer.Side == ev.Target.Side)
                     {
                         admin?.RemoteAdminMessage(messageTK, true);
                         ev.Killer.RankName = "TEAMKILLER";

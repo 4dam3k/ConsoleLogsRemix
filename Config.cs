@@ -108,5 +108,6 @@ namespace ConsoleLogsRemix
             },
 
         };
+        public string notlisted = "Nade";
     }
 }
